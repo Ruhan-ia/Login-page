@@ -175,8 +175,8 @@ export const Toggle = styled.button`
 
  const Container =styled.section`
 display:flex;
-min-width:95%;
-min-height: 80vh;
+width:95%;
+height: 80vh;
 padding:15px;
 align-items: center;
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Container, {  Button, Card, Div, Div2, Field, ForgotPassword, Form, FormControl, Image, Input, Label, Submit, Terms, Title, Toggle } from './Component/Style/Global.styled';
+import Container, {  Button, Card, Div, Div2, Field, ForgotPassword, Form, FormControl, Image, Input, Label, Submit, Terms, Title, Toggle } from './Component/Style/AllComponent.styled';
 import pic from './assets/pic-1.svg'
 import { BsEye, BsEyeSlash } from "react-icons/bs";
 import { useState } from 'react';
@@ -35,7 +35,7 @@ const handleSubmit = (e) => {
       <Form onClick={handleSubmit}>
         <FormControl>
           <Label>Login ID</Label>
-          <Input type='text' $w='100%' placeholder='enter login id'/>
+          <Input type='text' $w='100%' placeholder='Enter login ID'/>
           
         </FormControl>
         <FormControl>
